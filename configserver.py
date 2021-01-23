@@ -6,4 +6,6 @@ class server:
 
      def _init_(self):
             print ("Welcome")
+
+server = server ()
               
