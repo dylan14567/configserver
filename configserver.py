@@ -2,9 +2,21 @@ import os
 import sys
 import time
 from colorama import init, Fore
-from configserver.main import server
 
 init(autoreset=True)
+
+class server:
+
+     def __init__(self):
+            print (Fore.WHITE + "Welcome")
+   
+     def ip (self, ip):
+            self.ip = ip
+            print ("The ip is", ip)
+
+     def port (self, port):
+            self.port = port
+            print ("The port is", port)
 
 server = server ()
 server.__init__()
