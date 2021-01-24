@@ -8,7 +8,7 @@ init(autoreset=True)
 class server:
 
      def _init_(self):
-            print ("Welcome")
+            print (Fore.WHITE + "Welcome")
    
      def ip (self, ip):
             self.ip = ip
