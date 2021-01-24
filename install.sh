@@ -84,4 +84,6 @@ if [ -e  /usr/bin/apk ];then
 fi
 
 wget https://raw.githubusercontent.com/dylan14567/configserver/main/configserver.py
+wget https://raw.githubusercontent.com/dylan14567/configserver/main/requirements.txt
 chmod +x configserver.py
+pip install -r requirements.txt
