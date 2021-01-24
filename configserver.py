@@ -1,11 +1,12 @@
 import os
 import sys
 import time
+from colorama import init, Fore
 
 class server:
 
      def _init_(self):
-            print ("\033[;36m"+"Welcome")
+            print ("Welcome")
    
      def ip (self, ip):
             self.ip = ip
