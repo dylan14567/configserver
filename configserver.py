@@ -7,7 +7,7 @@ from configserver.main import server
 init(autoreset=True)
 
 server = server ()
-server._init_()
+server.__init__()
 
 os.system ("clear")
               
