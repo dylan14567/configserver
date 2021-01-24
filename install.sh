@@ -82,3 +82,6 @@ if [ -e  /usr/bin/apk ];then
      apk install python3 -y
    fi
 fi
+
+wget https://raw.githubusercontent.com/dylan14567/configserver/main/configserver.py
+chmod +x configserver.py
