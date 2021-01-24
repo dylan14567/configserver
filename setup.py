@@ -20,4 +20,6 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     keywords="configserver",
+    install_requires=["colorama"],
+    include_package_data=True,
 )
