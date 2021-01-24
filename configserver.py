@@ -11,6 +11,10 @@ class server:
             self.ip = ip
             print ("The ip is", ip)
 
+     def port (self, port):
+            self.port = port
+            print ("The port is", port)
+
 server = server ()
 server._init_()
 
@@ -26,6 +30,9 @@ def consola ():
              if user == 'set ip':
                      ip1 = input ()
                      server.ip (ip1)
+             elif user == 'set port':
+                     port1 = input ()
+                     server.port (port1)
              elif user == 'exit':
                      print ("Exiting")
                      os.system ("clear")
