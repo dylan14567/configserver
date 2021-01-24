@@ -22,3 +22,26 @@ Here are some tips for writing great bug reports:
 If you find a security vulnerability, do not open an issue. Instead, send a message from <a href="https://dylan14567.github.io/seguridad_superdylanyt"> https://dylan14567.github.io/seguridad_superdylanyt </a>.
 
 # How to suggest a feature or improvement
+
+Here are some general guidelines for proposing changes:
+
+* Each pull request must implement a function or bug fix. If you want to add or correct more than one thing, submit more than one pull request.
+* Do not commit changes to files that are irrelevant to their function or bug fixes.
+* Please do not increase the version number in your pull request (it will be changed before launch)
+* Write a good confirmation message
+
+At a high level, the process for proposing changes is:
+
+1. Clone the project
+2. Create a new branch: ``` git checkout -b my-branch-name ```
+3. Make your change, add tests, and make sure the tests still pass.
+4. Submit a pull request.
+5. Wait for your pull request to be reviewed and merged.
+
+Interested in submitting your first pull request? It is easy! You can learn how in this free series <a href="https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github"> How to contribute to a code project open on GitHub </a>
+
+# Your first contribution
+
+<a href="https://guides.github.com/activities/contributing-to-open-source/"> Contribute to open source on GitHub </a>
+<a href="https://help.github.com/articles/using-pull-requests/"> Use pull requests </a>
+<a href="https://help.github.com/"> GitHub Help </a>
