@@ -1,6 +1,6 @@
 class server:
 
-     def _init_(self):
+     def __init__(self):
             print (Fore.WHITE + "Welcome")
    
      def ip (self, ip):
