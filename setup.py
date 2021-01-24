@@ -7,7 +7,7 @@ setup(
   author = 'dylan14567',
   author_email = '',
   url = 'https://github.com/dylan14567/configserver', 
-  download_url = 'https://github.com/dylan14567/configserver/archive/1.0.tar.gz',
+  download_url = 'https://github.com/dylan14567/configserver/tarball/1.0',
   keywords = ['configserver', 'server', 'framework'],
   classifiers = [],
 )
