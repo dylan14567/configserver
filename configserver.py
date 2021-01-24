@@ -14,8 +14,10 @@ class server:
 server = server ()
 server._init_()
               
-def menu ():
+def consola ():
       
       while True:
             
             user = input ("root@configserver ~# ")
+
+consola ()
