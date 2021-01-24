@@ -19,7 +19,20 @@ os.system ("clear")
 def consola ():
       
       while True:
-            
-            user = input ("root@configserver ~# ")
+          
+          try:
+             user = input ("root@configserver ~# ")
+     
+             if user == 'set ip':
+                     ip1 = input ()
+                     server.ip (ip1)
+             elif user == 'exit':
+                     print ("Exiting")
+                     os.system ("clear")
+                     break
+             else:
+                     print ("Error")
+          except:
+                  print ("Error")
 
 consola ()
