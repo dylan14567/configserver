@@ -35,4 +35,5 @@ def consola ():
           except:
                   print ("Error")
 
-consola ()
+if True:
+   consola ()
