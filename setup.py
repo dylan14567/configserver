@@ -9,7 +9,7 @@ setuptools.setup(
     author="dylan14567",
     author_email="",
     description="configure your server with configserver",
-    long_description=README.md,
+    long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/dylan14567/configserver",
     packages=setuptools.find_packages(),
