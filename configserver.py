@@ -3,7 +3,7 @@ import sys
 import time
 from colorama import init, Fore
 
-init()
+init(autoreset=True)
 
 class server:
 
