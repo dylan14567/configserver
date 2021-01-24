@@ -43,5 +43,7 @@ Interested in submitting your first pull request? It is easy! You can learn how 
 # Your first contribution
 
 <a href="https://guides.github.com/activities/contributing-to-open-source/"> Contribute to open source on GitHub </a>
+<br />
 <a href="https://help.github.com/articles/using-pull-requests/"> Use pull requests </a>
+<br />
 <a href="https://help.github.com/"> GitHub Help </a>
