@@ -3,6 +3,8 @@ import sys
 import time
 from colorama import init, Fore
 
+init()
+
 class server:
 
      def _init_(self):
