@@ -33,6 +33,8 @@ def consola ():
              elif user == 'set port':
                      port1 = input ()
                      server.port (port1)
+             elif user == 'server':
+                     print (server)
              elif user == 'exit':
                      print ("Exiting")
                      os.system ("clear")
