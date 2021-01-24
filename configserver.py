@@ -5,7 +5,7 @@ import time
 class server:
 
      def _init_(self):
-            print ("Welcome")
+            print ("\033[;36m"+"Welcome")
    
      def ip (self, ip):
             self.ip = ip
