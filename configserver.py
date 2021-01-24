@@ -13,6 +13,8 @@ class server:
 
 server = server ()
 server._init_()
+
+os.system ("clear")
               
 def consola ():
       
