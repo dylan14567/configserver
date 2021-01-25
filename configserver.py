@@ -51,8 +51,21 @@ def consola ():
                      break
              else:
                      print ("Error")
-          except:
-                  print ("Error")
+          except ValueError:
+                  print (Fore.GREEN + "Error, there is a type of error.")
+                  sys.exit ()
+          except KeyboardInterrupt:
+                  print (Fore.GREEN + "Exiting...")
+                  sys.exit ()
+          except NameError:
+                  print (Fore.GREEN + "Error, the command I use is not available in the program code.")
+                  sys.exit ()
+          except SyntaxError:
+                  print (Fore.GREEN + "Error, the code has a syntax error.")
+                  sys.exit ()
+          except TypeError:
+                  print (Fore.GREEN + "Error, the code is misspelled.")
+                  sys.exit ()
 
 if True:
    consola ()
