@@ -63,26 +63,34 @@ def consola ():
              print (Fore.CYAN + "4- Listing all users")
              print (Fore.CYAN + "5- Exit")
 
-             user = input (">>> ")
+             user = int (input (">>> "))
      
              if user == 1:
+                     os.system ("clear")
                      ip1 = input ()
                      server.ip (ip1)
                      print (Fore.CYAN + "Hit enter to get out of here")
                      input ()
+                     os.system ("clear")
              elif user == 2:
+                     os.system ("clear")
                      port1 = input ()
                      server.port (port1)
                      print (Fore.CYAN + "Hit enter to get out of here")
                      input ()
+                     os.system ("clear")
              elif user == 3:
+                     os.system ("clear")
                      server.systeminfo ()
                      print (Fore.CYAN + "Hit enter to get out of here")
                      input ()
+                     os.system ("clear")
              elif user == 4:
+                     os.system ("clear")
                      server.listusers ()
                      print (Fore.CYAN + "Hit enter to get out of here")
                      input ()
+                     os.system ("clear")
              elif user == 5:
                      print ("Exiting")
                      os.system ("clear")
