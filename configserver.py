@@ -64,11 +64,17 @@ def consola ():
              if user == 1:
                      ip1 = input ()
                      server.ip (ip1)
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
              elif user == 2:
                      port1 = input ()
                      server.port (port1)
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
              elif user == 3:
                      server.systeminfo ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
              elif user == 4:
                      print ("Exiting")
                      os.system ("clear")
