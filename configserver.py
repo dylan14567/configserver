@@ -34,6 +34,9 @@ class server:
             os.system ("inxi")
             print (Fore.CYAN + "Username:")
             os.system ("whoami")
+
+     def listusers (self):
+            os.system ("awk -F: '{ print $1}' /etc/passwd")
             
 
 server = server ()
@@ -57,7 +60,8 @@ def consola ():
              print (Fore.CYAN + "1- Add IP")
              print (Fore.CYAN + "2- Add port")
              print (Fore.CYAN + "3- System information")
-             print (Fore.CYAN + "4- Exit")
+             print (Fore.CYAN + "4- Listing all users")
+             print (Fore.CYAN + "5- Exit")
 
              user = input (">>> ")
      
@@ -76,6 +80,10 @@ def consola ():
                      print (Fore.CYAN + "Hit enter to get out of here")
                      input ()
              elif user == 4:
+                     server.listusers ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
+             elif user == 5:
                      print ("Exiting")
                      os.system ("clear")
                      break
