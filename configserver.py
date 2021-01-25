@@ -8,15 +8,15 @@ init(autoreset=True)
 class server:
 
      def __init__(self):
-            print (Fore.WHITE + "Welcome")
+            print (Fore.CYAN + "Welcome")
    
      def ip (self, ip):
             self.ip = ip
-            print ("The ip is", ip)
+            print (Fore.CYAN + "The ip is", ip)
 
      def port (self, port):
             self.port = port
-            print ("The port is", port)
+            print (Fore.CYAN + "The port is", port)
 
 server = server ()
 server.__init__()
@@ -28,17 +28,24 @@ def consola ():
       while True:
           
           try:
-             user = input ("root@configserver ~# ")
+             global user
+
+             print (Fore.CYAN + "1- Add IP")
+             print (Fore.CYAN + "2- Add port")
+             print (Fore.CYAN + "3- ??")
+             print (Fore.CYAN + "4- Exit")
+
+             user = input (">>> ")
      
-             if user == 'set ip':
+             if user == 1:
                      ip1 = input ()
                      server.ip (ip1)
-             elif user == 'set port':
+             elif user == 2:
                      port1 = input ()
                      server.port (port1)
-             elif user == 'server':
+             elif user == 3:
                      print (server)
-             elif user == 'exit':
+             elif user == 4:
                      print ("Exiting")
                      os.system ("clear")
                      break
