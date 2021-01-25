@@ -27,11 +27,15 @@ class server:
             os.system ("lshw")
             print (Fore.CYAN + "Private IP Address:")
             os.system ("ifconfig wlan0")
+            print (Fore.CYAN + "Public IP Address:")
+            os.system ("curl https://wgetip.com -w "\n"")
+            print (Fore.CYAN + "More system information:")
+            os.system ("inxi")
+            print (Fore.CYAN + "Username:")
+            os.system ("whoami")
+            
 
 server = server ()
-server.__init__()
-
-os.system ("clear")
               
 def consola ():
       
@@ -39,6 +43,7 @@ def consola ():
           
           try:
              global user
+             os.system ("clear")
 
              print (Fore.CYAN + "1- Add IP")
              print (Fore.CYAN + "2- Add port")
@@ -54,7 +59,7 @@ def consola ():
                      port1 = input ()
                      server.port (port1)
              elif user == 3:
-                     print (server)
+                     server.systeminfo ()
              elif user == 4:
                      print ("Exiting")
                      os.system ("clear")
