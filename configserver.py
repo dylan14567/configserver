@@ -17,6 +17,16 @@ class server:
      def port (self, port):
             self.port = port
             print (Fore.CYAN + "The port is", port)
+     
+     def systeminfo (self):
+            print (Fore.CYAN + "Machine architecture:")
+            os.system ("uname -m")
+            print (Fore.CYAN + "Kernel version used:")
+            os.system ("uname -r")
+            print (Fore.CYAN + "Ubuntu system specifications:")
+            os.system ("lshw")
+            print (Fore.CYAN + "Private IP Address:")
+            os.system ("ifconfig wlan0")
 
 server = server ()
 server.__init__()
@@ -32,7 +42,7 @@ def consola ():
 
              print (Fore.CYAN + "1- Add IP")
              print (Fore.CYAN + "2- Add port")
-             print (Fore.CYAN + "3- ??")
+             print (Fore.CYAN + "3- System information")
              print (Fore.CYAN + "4- Exit")
 
              user = input (">>> ")
