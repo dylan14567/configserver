@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import urllib.request
 from colorama import init, Fore
 
 init(autoreset=True)
@@ -28,7 +29,7 @@ class server:
             print (Fore.CYAN + "Private IP Address:")
             os.system ("ifconfig wlan0")
             print (Fore.CYAN + "Public IP Address:")
-            os.system ("curl https://wgetip.com -w "\n"")
+            print(public_ip())
             print (Fore.CYAN + "More system information:")
             os.system ("inxi")
             print (Fore.CYAN + "Username:")
@@ -36,6 +37,15 @@ class server:
             
 
 server = server ()
+
+def public_ip():
+	lista = "0123456789."
+	ip=""
+	dato=urllib.request.urlopen("http://checkip.dyndns.org").read()
+	for x in str(dato):
+		if x in lista:
+			ip += x
+	return ip
               
 def consola ():
       
@@ -43,7 +53,6 @@ def consola ():
           
           try:
              global user
-             os.system ("clear")
 
              print (Fore.CYAN + "1- Add IP")
              print (Fore.CYAN + "2- Add port")
