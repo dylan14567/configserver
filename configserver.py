@@ -113,5 +113,5 @@ def main ():
                   print (Fore.GREEN + "Error, the code is misspelled.")
                   sys.exit ()
 
-if True:
-   main ()
+if __name__ == "__main__":
+          main ()
