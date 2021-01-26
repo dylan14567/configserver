@@ -50,7 +50,7 @@ def public_ip():
 			ip += x
 	return ip
               
-def consola ():
+def main ():
       
       while True:
           
@@ -114,4 +114,4 @@ def consola ():
                   sys.exit ()
 
 if True:
-   consola ()
+   main ()
