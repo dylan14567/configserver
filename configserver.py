@@ -50,6 +50,9 @@ class server:
 
             user1 = os.environ.get ('user1')
             print ("The new user is", user1)
+
+     def verifylogin (self):
+            os.system ("w")
             
 
 server = server ()
@@ -77,7 +80,8 @@ def main ():
              print (Fore.CYAN + "3- System information")
              print (Fore.CYAN + "4- Listing all users")
              print (Fore.CYAN + "5- Add a New User")
-             print (Fore.CYAN + "6- Exit")
+             print (Fore.CYAN + "6- Verify Current Login")
+             print (Fore.CYAN + "7- Exit")
 
              user = int (input (">>> "))
      
@@ -114,6 +118,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 6:
+                     os.system ("clear")
+                     server.verifylogin ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 7:
                      print ("Exiting")
                      os.system ("clear")
                      break
