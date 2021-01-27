@@ -37,6 +37,19 @@ class server:
 
      def listusers (self):
             os.system ("awk -F: '{ print $1}' /etc/passwd")
+
+     def addnewuser (self):
+            os.system ("""
+
+            read -p " Enter the username: " name
+            adduser $name
+
+            export user1=$name
+
+             """)
+
+            user1 = os.environ.get ('user1')
+            print ("The new user is", user1)
             
 
 server = server ()
@@ -57,11 +70,14 @@ def main ():
           try:
              global user
 
+             os.system ("clear")
+
              print (Fore.CYAN + "1- Add IP")
              print (Fore.CYAN + "2- Add port")
              print (Fore.CYAN + "3- System information")
              print (Fore.CYAN + "4- Listing all users")
-             print (Fore.CYAN + "5- Exit")
+             print (Fore.CYAN + "5- Add a New User")
+             print (Fore.CYAN + "6- Exit")
 
              user = int (input (">>> "))
      
@@ -92,6 +108,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 5:
+                     os.system ("clear")
+                     server.addnewuser ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 6:
                      print ("Exiting")
                      os.system ("clear")
                      break
