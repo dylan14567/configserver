@@ -53,6 +53,9 @@ class server:
 
      def verifylogin (self):
             os.system ("w")
+
+     def verifylastlogin (self):
+            os.system ("last")
             
 
 server = server ()
@@ -124,6 +127,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 7:
+                     os.system ("clear")
+                     server.verifylastlogin ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 8:
                      print ("Exiting")
                      os.system ("clear")
                      break
