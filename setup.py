@@ -8,6 +8,7 @@ setup(
   author_email = '',
   url = 'https://github.com/dylan14567/configserver', 
   download_url = 'https://github.com/dylan14567/configserver/tarball/1.0',
+  scripts = ['configserver.py'],
   keywords = ['configserver', 'server', 'framework'],
   classifiers = [],
 )
