@@ -56,6 +56,9 @@ class server:
 
      def verifylastlogin (self):
             os.system ("last")
+
+     def checkcpuprocesses (self):
+            os.system ("top")
             
 
 server = server ()
@@ -85,7 +88,8 @@ def main ():
              print (Fore.CYAN + "5- Add a New User")
              print (Fore.CYAN + "6- Verify Current Login")
              print (Fore.CYAN + "7- Verify Last Login")
-             print (Fore.CYAN + "8- Exit")
+             print (Fore.CYAN + "8- Check CPU processes")
+             print (Fore.CYAN + "9- Exit")
 
              user = int (input (">>> "))
      
@@ -134,6 +138,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 8:
+                     os.system ("clear")
+                     server.checkcpuprocesses ()
+                     print (Fore.CYAN + "Hit enter to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 9:
                      print ("Exiting")
                      os.system ("clear")
                      break
