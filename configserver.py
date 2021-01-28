@@ -59,7 +59,15 @@ class server:
 
      def checkcpuprocesses (self):
             os.system ("top")
+
+     def checkcpuprocessesstrace (self):
+            os.system ("""
+
+            read -p " Write the <PID Number>: " numero
+            strace -d -p $numero
             
+              """)
+
 
 server = server ()
 
@@ -89,7 +97,8 @@ def main ():
              print (Fore.CYAN + "6- Verify Current Login")
              print (Fore.CYAN + "7- Verify Last Login")
              print (Fore.CYAN + "8- Check CPU processes")
-             print (Fore.CYAN + "9- Exit")
+             print (Fore.CYAN + "9- Check CPU processes with strace")
+             print (Fore.CYAN + "10- Exit")
 
              user = int (input (">>> "))
      
@@ -144,6 +153,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 9:
+                     os.system ("clear")
+                     server.checkcpuprocessesstrace ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 10:
                      print ("Exiting")
                      os.system ("clear")
                      break
