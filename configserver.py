@@ -84,7 +84,8 @@ def main ():
              print (Fore.CYAN + "4- Listing all users")
              print (Fore.CYAN + "5- Add a New User")
              print (Fore.CYAN + "6- Verify Current Login")
-             print (Fore.CYAN + "7- Exit")
+             print (Fore.CYAN + "7- Verify Last Login")
+             print (Fore.CYAN + "8- Exit")
 
              user = int (input (">>> "))
      
