@@ -69,7 +69,7 @@ class server:
             read -p " Write the <PID Number>: " numero
             strace -d -p $numero
             
-              """)
+             """)
 
      def checksystemprocesses (self):
             os.system ("ps auxf")
@@ -77,11 +77,11 @@ class server:
      def destroyprocess (self):
             os.system ("""
 
-            read -p " WRITE THE PIP: " numero
-            kill -9 $numero
+            read -p " WRITE THE PIP: " numero1
+            kill -9 $numero1
 
 
-              """)
+             """)
 
      def checknetworktraffic (self):
             os.system ("iftop")
