@@ -28,4 +28,4 @@ Interested in contributing to the project? We would love your help. Configserver
 
 # License
 
-The license for this project is MIT.
+The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>.
