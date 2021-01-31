@@ -68,6 +68,9 @@ class server:
             
               """)
 
+     def checksystemprocesses (self):
+            os.system ("ps auxf")
+
 
 server = server ()
 
@@ -98,7 +101,8 @@ def main ():
              print (Fore.CYAN + "7- Verify Last Login")
              print (Fore.CYAN + "8- Check CPU processes")
              print (Fore.CYAN + "9- Check CPU processes with strace")
-             print (Fore.CYAN + "10- Exit")
+             print (Fore.CYAN + "10- Check system processes")
+             print (Fore.CYAN + "11- Exit")
 
              user = int (input (">>> "))
      
@@ -159,6 +163,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 10:
+                     os.system ("clear")
+                     server.checksystemprocesses ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 11:
                      print ("Exiting")
                      os.system ("clear")
                      break
