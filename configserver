@@ -3,6 +3,8 @@
 import os, sys, time, urllib.request 
 from colorama import init, Fore
 
+# Author dylan14567, this project is copyrighted, the license is MIT.
+
 init(autoreset=True)
 
 class server:
