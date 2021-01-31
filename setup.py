@@ -15,6 +15,9 @@ setup(
     author_email = '',
     url = 'https://github.com/dylan14567/configserver',
     scripts = ['configserver'],
+    install_requires=[
+        "colorama",
+    ],
     classifiers = (
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
