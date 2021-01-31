@@ -88,6 +88,9 @@ class server:
      def checklistenerportslsof (self):
             os.system ("lsof -p")
 
+     def checkrootkit (self):
+            os.system ("chkrootkit")
+
 
 server = server ()
 
@@ -123,7 +126,8 @@ def main ():
              print (Fore.CYAN + "12- Check Network Traffic")
              print (Fore.CYAN + "13- Check listener ports")
              print (Fore.CYAN + "14- Check listener ports with lsof")
-             print (Fore.CYAN + "15- Exit")
+             print (Fore.CYAN + "15- Check rootkit")
+             print (Fore.CYAN + "16- Exit")
 
              user = int (input (">>> "))
      
@@ -214,6 +218,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 15:
+                     os.system ("clear")
+                     server.checkrootkit ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 16:
                      print ("Exiting")
                      os.system ("clear")
                      break
