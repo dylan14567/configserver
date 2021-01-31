@@ -7,6 +7,8 @@ from colorama import init, Fore
 
 init(autoreset=True)
 
+# The server class contains the components of the system menu, if you edit or add some function in the class you would be adding new content for the system.
+
 class server:
 
      def __init__(self):
@@ -94,7 +96,11 @@ class server:
             os.system ("chkrootkit")
 
 
+# Here the server class is added in a server variable
+
 server = server ()
+
+# Here is the function to know the public ip, do not modify this function unless you find an error.
 
 def public_ip():
 	lista = "0123456789."
@@ -104,6 +110,9 @@ def public_ip():
 		if x in lista:
 			ip += x
 	return ip
+
+# Here is the menu, in the menu are the options to choose and here is the system that is looking for a function of the server class.
+# Do not modify the menu unless there is an error.
               
 def main ():
       
