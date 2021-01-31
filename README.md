@@ -28,5 +28,4 @@ Interested in contributing to the project? We would love your help. Configserver
 
 # License
 
-La licencia de este proyecto es MIT.
-
+The license for this project is MIT.
