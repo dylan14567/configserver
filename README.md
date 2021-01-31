@@ -24,7 +24,7 @@ Ready
 
 # Contributing
 
-Interested in contributing to the project? We would love your help. Lab_tools is an open source project, built one contribution at a time by users like you. <a href="">See the CONTRIBUTING file </a> for instructions on how to contribute.
+Interested in contributing to the project? We would love your help. Configserver is an open source project, built one contribution at a time by users like you. <a href="https://github.com/dylan14567/configserver/blob/main/CONTRIBUTING.md">See the CONTRIBUTING file </a> for instructions on how to contribute.
 
 # License
 
