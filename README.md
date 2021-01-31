@@ -22,3 +22,11 @@ Ready
 
 /END/
 
+# Contributing
+
+Interested in contributing to the project? We would love your help. Lab_tools is an open source project, built one contribution at a time by users like you. <a href="">See the CONTRIBUTING file </a> for instructions on how to contribute.
+
+# License
+
+La licencia de este proyecto es MIT.
+
