@@ -112,7 +112,7 @@ def public_ip():
 	return ip
 
 # Here is the menu, in the menu are the options to choose and here is the system that is looking for a function of the server class.
-# Do not modify the menu unless there is an error.
+# Do not modify the menu unless there is an error or you are adding something.
               
 def main ():
       
