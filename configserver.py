@@ -80,6 +80,12 @@ class server:
 
               """)
 
+     def checknetworktraffic (self):
+            os.system ("iftop")
+
+     def checklistenerports (self):
+            os.system ("netstat -plunt")
+
 
 server = server ()
 
@@ -112,7 +118,9 @@ def main ():
              print (Fore.CYAN + "9- Check CPU processes with strace")
              print (Fore.CYAN + "10- Check system processes")
              print (Fore.CYAN + "11- Destroy system process")
-             print (Fore.CYAN + "12- Exit")
+             print (Fore.CYAN + "12- Check Network Traffic")
+             print (Fore.CYAN + "13- Check listener ports")
+             print (Fore.CYAN + "14- Exit")
 
              user = int (input (">>> "))
      
@@ -185,6 +193,18 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 12:
+                     os.system ("clear")
+                     server.checknetworktraffic ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 13:
+                     os.system ("clear")
+                     server.checklistenerports ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 14:
                      print ("Exiting")
                      os.system ("clear")
                      break
