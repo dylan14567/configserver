@@ -1,9 +1,9 @@
 # configserver
 [![Build Status](https://img.shields.io/github/stars/dylan14567/configserver.svg)](https://github.com/dylan14567/configserver)
-[![License](https://img.shields.io/github/license/dylan14567/configserver.svg)](https://github.com/dylan14567/configserver/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/dylan14567/configserver.svg)](https://github.com/dylan14567/configserver/blob/main/LICENSE)
 [![dylan14567](https://img.shields.io/badge/author-dylan14567-green.svg)](https://github.com/dylan14567)
-[![bug_report](https://img.shields.io/badge/bug-report-red.svg)](https://github.com/dylan14567/configserver/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
-[![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylan14567/configserver/blob/master/SECURITY.md)
+[![bug_report](https://img.shields.io/badge/bug-report-red.svg)](https://github.com/dylan14567/configserver/blob/main/.github/ISSUE_TEMPLATE/bug_report.md)
+[![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylan14567/configserver/blob/main/SECURITY.md)
 [![Bash](https://img.shields.io/badge/language-Bash-blue.svg)](https://www.gnu.org/software/bash/)
 [![Python](https://img.shields.io/badge/language-Python%20-yellow.svg)](https://www.python.org)
 
