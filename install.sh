@@ -9,7 +9,14 @@ sudo apt install lsof -y
 sudo apt install chkrootkit -y
 sudo apt install inxi -y
 sudo apt install lshw -y
-wget https://raw.githubusercontent.com/dylan14567/configserver/main/configserver.py
-wget https://raw.githubusercontent.com/dylan14567/configserver/main/requirements.txt
-chmod +x configserver.py
+sudo apt install git -y
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install build-essential libssl-dev libffi-dev python3-dev -y
+git clone https://github.com/dylan14567/configserver
+cd configserver
+chmod +x *;ls
 pip install -r requirements.txt
+python3 setup.py install
+cd
+rm -rf install.sh
