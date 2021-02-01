@@ -15,7 +15,10 @@ class server:
 
      def __init__(self):
             username = getuser()
-            print (Fore.CYAN + "Welcome", username)
+            username1 = request.args.get(username)
+            resp = make_response(render_template(...))
+            resp.set_cookie(username, username1)
+            print (Fore.CYAN + "Welcome", resp)
    
      def ip (self, ip):
             self.ip = ip
