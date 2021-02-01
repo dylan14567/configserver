@@ -2,8 +2,7 @@
 
 import os, sys, time, urllib.request 
 from colorama import init, Fore
-from tqdm import tqdm
-from time import sleep
+from getpass import getuser
 
 # Author dylan14567, this project is copyrighted, the license is MIT.
 
@@ -14,12 +13,8 @@ init(autoreset=True)
 class server:
 
      def __init__(self):
-            os.system ("export username=whoami")
-            username1 = os.environ.get ('username')
-            print (Fore.CYAN + "Welcome", username1)
-            time = 100
-            for i in tqdm(range(time)):
-                sleep(0.2)
+            username = getuser()
+            print (Fore.CYAN + "Welcome", username)
    
      def ip (self, ip):
             self.ip = ip
