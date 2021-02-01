@@ -1,9 +1,7 @@
 #!/bin/python3
 
 import os, sys, time, urllib.request 
-from flask import Flask, make_response, request
 from colorama import init, Fore
-from getpass import getuser
 
 # Author dylan14567, this project is copyrighted, the license is MIT.
 
@@ -14,11 +12,7 @@ init(autoreset=True)
 class server:
 
      def __init__(self):
-            username = getuser()
-            username1 = request.args.get(username)
-            resp = make_response(render_template(...))
-            resp.set_cookie(username, username1)
-            print (Fore.CYAN + "Welcome", resp)
+            print (Fore.CYAN + "Welcome")
    
      def ip (self, ip):
             self.ip = ip
