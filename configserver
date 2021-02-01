@@ -48,12 +48,7 @@ class server:
             read name
             adduser $name
 
-            export user1=$name
-
              """)
-
-            user1 = os.environ.get ('user1')
-            print ("The new user is", user1)
 
      def verifylogin (self):
             os.system ("w")
