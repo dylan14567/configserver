@@ -18,7 +18,6 @@ setup(
     scripts = ['configserver'],
     install_requires=[
         "colorama",
-        "tqdm",
     ],
     classifiers = (
         'Intended Audience :: Developers',
