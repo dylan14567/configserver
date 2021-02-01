@@ -14,7 +14,7 @@ setup(
     author = 'dylan14567',
     author_email = '',
     url = 'https://github.com/dylan14567/configserver',
-    download_url="https://github.com/threat9/routersploit/",
+    download_url="https://github.com/dylan14567/configserver",
     scripts = ['configserver'],
     install_requires=[
         "colorama",
