@@ -9,7 +9,7 @@ setup(
     name = 'configserver',
     version = '1.3',
     license='MIT',
-    description = 'Configure your server with configserver',
+    description = 'Configure your linux server with configserver',
     long_description = readme(),
     author = 'dylan14567',
     author_email = '',
