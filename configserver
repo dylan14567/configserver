@@ -44,7 +44,8 @@ class server:
      def addnewuser (self):
             os.system ("""
 
-            read -p " Enter the username: " name
+            echo " Enter the username: "
+            read name
             adduser $name
 
             export user1=$name
@@ -66,7 +67,8 @@ class server:
      def checkcpuprocessesstrace (self):
             os.system ("""
 
-            read -p " Write the <PID Number>: " numero
+            echo " Write the <PID Number>: "
+            read -p numero
             strace -d -p $numero
             
              """)
@@ -77,7 +79,8 @@ class server:
      def destroyprocess (self):
             os.system ("""
 
-            read -p " WRITE THE PIP: " numero1
+            echo " WRITE THE PIP: "
+            read numero1
             kill -9 $numero1
 
 
