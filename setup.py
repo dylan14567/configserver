@@ -7,7 +7,7 @@ def readme():
         return f.read()
 setup(
     name = 'configserver',
-    version = '1.0',
+    version = '1.2',
     license='MIT',
     description = 'Configure your server with configserver',
     long_description = readme(),
