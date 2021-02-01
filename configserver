@@ -103,9 +103,6 @@ class server:
 
 server = server ()
 
-app = Flask("Security")
-@app.route('/')
-
 # Here is the function to know the public ip, do not modify this function unless you find an error.
 
 def public_ip():
