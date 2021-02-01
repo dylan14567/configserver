@@ -68,7 +68,7 @@ class server:
             os.system ("""
 
             echo " Write the <PID Number>: "
-            read -p numero
+            read numero
             strace -d -p $numero
             
              """)
