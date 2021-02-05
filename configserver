@@ -97,7 +97,7 @@ class server:
             try:
                  link = input ("Write the link: ")
                  target = requests.get(url=link)
-                 header = dict(objetivo.headers)
+                 header = dict(target.headers)
                  for x in header:
                      print (x+ " : "+header[x])
             except:
