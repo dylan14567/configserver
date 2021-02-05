@@ -96,7 +96,7 @@ class server:
      def header (self):
             try:
                  link = input ("Write the link: ")
-                 objetivo = requests.get(url=link)
+                 target = requests.get(url=link)
                  header = dict(objetivo.headers)
                  for x in header:
                      print (x+ " : "+header[x])
