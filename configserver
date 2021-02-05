@@ -93,6 +93,16 @@ class server:
      def checkrootkit (self):
             os.system ("chkrootkit")
 
+     def header (self):
+            try:
+                 ip = input ("Escribe la ip: ")
+                 objetivo = requests.get(url=ip)
+                 header = dict(objetivo.headers)
+                 for x in header:
+                     print (x+ " : "+header[x])
+            except:
+                 print ("Error")
+
 
 # Here the server class is added in a server variable
 
