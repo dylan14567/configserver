@@ -95,6 +95,7 @@ class server:
 
      def header (self):
             try:
+                 print ("Do not use a website that is not yours because it is not legal, use your website because it is legal.")
                  link = input ("Write the link: ")
                  target = requests.get(url=link)
                  header = dict(target.headers)
