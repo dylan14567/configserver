@@ -146,7 +146,8 @@ def main ():
              print (Fore.MAGENTA + "13- Check listener ports")
              print (Fore.YELLOW + "14- Check listener ports with lsof")
              print (Fore.GREEN + "15- Check rootkit")
-             print (Fore.WHITE + "16- Exit")
+             print (Fore.WHITE + "16- Read website headers")
+             print (Fore.CYAN + "17- Exit")
 
              user = int (input (">>> "))
      
@@ -243,6 +244,12 @@ def main ():
                      input ()
                      os.system ("clear")
              elif user == 16:
+                     os.system ("clear")
+                     server.header ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 17:
                      print ("Exiting")
                      os.system ("clear")
                      break
