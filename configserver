@@ -95,13 +95,13 @@ class server:
 
      def header (self):
             try:
-                 ip = input ("Escribe la ip: ")
-                 objetivo = requests.get(url=ip)
+                 link = input ("Write the link: ")
+                 objetivo = requests.get(url=link)
                  header = dict(objetivo.headers)
                  for x in header:
                      print (x+ " : "+header[x])
             except:
-                 print ("Error")
+                 print ("Error, could not connect to server")
 
 
 # Here the server class is added in a server variable
