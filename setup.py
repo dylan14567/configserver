@@ -18,6 +18,7 @@ setup(
     scripts = ['configserver'],
     install_requires=[
         "colorama",
+        "requests",
     ],
     classifiers = (
         'Intended Audience :: Developers',
