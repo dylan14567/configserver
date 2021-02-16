@@ -4,7 +4,7 @@ from colorama import init, Fore
 class server:
 
      def __init__(self):
-            print (Fore.CYAN + "Welcome")
+            return
    
      def ip (self, ip):
             self.ip = ip
@@ -85,10 +85,9 @@ class server:
      def checkrootkit (self):
             os.system ("chkrootkit")
 
-     def header (self):
+     def header (self, link):
             try:
-                 print (Fore.CYAN + "Do not use a website that is not yours because it is not legal, use your website because it is legal.")
-                 link = input ("Write the link: ")
+                 self.link = link
                  target = requests.get(url=link)
                  header = dict(target.headers)
                  for x in header:
