@@ -7,11 +7,9 @@ class server:
             return
    
      def ip (self, ip):
-            global ip
             self.ip = ip
             
      def port (self, port):
-            global port
             self.port = port
             
      def systeminfo (self):
