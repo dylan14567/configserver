@@ -7,13 +7,13 @@ class server:
             return
    
      def ip (self, ip):
+            global ip
             self.ip = ip
-            print (Fore.CYAN + "The ip is", ip)
-
+            
      def port (self, port):
+            global port
             self.port = port
-            print (Fore.CYAN + "The port is", port)
-     
+            
      def systeminfo (self):
             print (Fore.CYAN + "Machine architecture:")
             os.system ("uname -m")
