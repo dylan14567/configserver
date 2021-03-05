@@ -10,7 +10,7 @@ class main:
               return
 
        def version(self):
-              print ("1.7")
+              print ("1.8")
 
        def name(self):
               print ("configserver")
