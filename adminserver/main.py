@@ -28,6 +28,8 @@ class main:
               print ("https://github.com/dylan14567/configserver")
 
 
+# The server class contains the components of the system menu, if you edit or add some function in the class you would be adding new content for the system.
+
 class server:
 
      def __init__(self):
