@@ -15,6 +15,10 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/dylan14567/configserver/issues",
     },
+    install_requires=[
+        "colorama",
+        "requests",
+    ]
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
