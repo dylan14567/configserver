@@ -3,31 +3,6 @@ from colorama import init, Fore
 
 init(autoreset=True)
 
-class main:
-
-       def __init__(self):
-              #print (Fore.CYAN + "Welcome")
-              return
-
-       def version(self):
-              print ("1.8")
-
-       def name(self):
-              print ("configserver")
-
-       def license(self):
-              print ("MIT")
-
-       def description(self):
-              print ("Configure your linux server and check for vulnerabilities with configserver.")
-
-       def author(self):
-              print ("dylan14567")
-
-       def repository(self):
-              print ("https://github.com/dylan14567/configserver")
-
-
 # Here is the function to know the public ip, do not modify this function unless you find an error.
 
 def public_ip():
