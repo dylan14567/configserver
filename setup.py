@@ -9,7 +9,7 @@ setup(
     name = 'configserver',
     packages = ['adminserver'],
     include_package_data=True,
-    version = '1.6',
+    version = '1.7',
     license='MIT',
     description = 'Configure your linux server with configserver',
     long_description = readme(),
