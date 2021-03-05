@@ -28,6 +28,17 @@ class main:
               print ("https://github.com/dylan14567/configserver")
 
 
+# Here is the function to know the public ip, do not modify this function unless you find an error.
+
+def public_ip():
+	lista = "0123456789."
+	ip=""
+	dato=urllib.request.urlopen("http://checkip.dyndns.org").read()
+	for x in str(dato):
+		if x in lista:
+			ip += x
+	return ip
+
 # The server class contains the components of the system menu, if you edit or add some function in the class you would be adding new content for the system.
 
 class server:
