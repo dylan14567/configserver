@@ -1,1 +1,1 @@
-include LICENSE README.md
+recursive-include LICENSE README.md
