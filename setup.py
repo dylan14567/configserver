@@ -7,6 +7,7 @@ def readme():
         return f.read()
 setup(
     name = 'configserver',
+    packages=['adminserver'],
     version = '1.3',
     license='MIT',
     description = 'Configure your linux server with configserver',
