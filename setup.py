@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="configserver", 
-    version="1.7",
+    version="1.8",
     author="dylan14567",
     author_email="",
     description="Configure your linux server and check for vulnerabilities with configserver.",
