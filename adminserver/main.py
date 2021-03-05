@@ -110,7 +110,7 @@ class server:
             except:
                  print ("Error, could not connect to server")
 
-     def install (self):
+     def installpackages (self):
             os.system ("""
 
             sudo apt update -y && sudo apt upgrade -y
