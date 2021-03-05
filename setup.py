@@ -7,7 +7,7 @@ def readme():
         return f.read()
 setup(
     name = 'configserver',
-    packages=['adminserver'],
+    packages = ['adminserver'],
     version = '1.3',
     license='MIT',
     description = 'Configure your linux server with configserver',
@@ -17,7 +17,7 @@ setup(
     url = 'https://github.com/dylan14567/configserver',
     download_url="https://github.com/dylan14567/configserver",
     scripts = ['configserver'],
-    keywords='python server configserver admin', 
+    keywords = 'python server configserver admin', 
     install_requires=[
         "colorama",
         "requests",
