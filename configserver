@@ -138,7 +138,9 @@ def main ():
                      os.system ("clear")
              elif user == 16:
                      os.system ("clear")
-                     server.header ()
+                     print (Fore.CYAN + "Do not use a website that is not yours because it is not legal, use your website because it is legal.")
+                     link = input ("Write the link: ")
+                     server.header (link)
                      print (Fore.CYAN + "Hit ENTER to get out of here")
                      input ()
                      os.system ("clear")
