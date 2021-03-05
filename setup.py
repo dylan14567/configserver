@@ -15,7 +15,7 @@ setup(
     author = 'dylan14567',
     author_email = '',
     url = 'https://github.com/dylan14567/configserver',
-    download_url="https://github.com/dylan14567/configserver",
+    download_url="https://github.com/dylan14567/configserver/archive/1.6.tar.gz",
     scripts = ['configserver'],
     keywords = 'python server configserver admin', 
     install_requires=[
