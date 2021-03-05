@@ -15,11 +15,7 @@ To install configserver on linux run these commands on your Linux Terminal.
 
 ```shell
 
-sudo apt update -y && sudo apt upgrade -y
-sudo apt install wget -y
-wget https://raw.githubusercontent.com/dylan14567/configserver/main/install.sh
-chmod +x install.sh
-./install.sh
+pip install configserver
 
 ```
 
