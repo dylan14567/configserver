@@ -2,7 +2,7 @@
 
 import os, sys, time, urllib.request, requests
 from colorama import init, Fore
-from adminserver.admin import *
+from adminserver.main import *
 
 # Author dylan14567, this project is copyrighted, the license is MIT.
 
