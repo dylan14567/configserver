@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dylan14567/configserver",
+    scripts = ['configserver'],
     project_urls={
         "Bug Tracker": "https://github.com/dylan14567/configserver/issues",
     },
