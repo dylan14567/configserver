@@ -25,7 +25,7 @@ Ready
 
 ## Usage:
 
-to use the configserver command you just have to put the ```configserver``` command, and once that is done the system menu will be loaded.
+To use the configserver command you just have to put the ```configserver``` command, and once that is done the system menu will be loaded.
 
 ## Custom script
 
