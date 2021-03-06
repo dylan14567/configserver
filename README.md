@@ -56,6 +56,11 @@ link = "127.0.0.1"
 server.header (link) # Get information from a website
 
 ```
+
+## Authors
+
+*Dylan Alexander* - Initial Work - [```dylan14567```](https://github.com/dylan14567)
+
 ## License
 
 The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>
