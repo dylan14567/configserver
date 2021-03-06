@@ -23,6 +23,10 @@ Once done, it begins to install.
 
 Ready
 
+## Usage:
+
+to use the configserver command you just have to put the ```configserver``` command, and once that is done the system menu will be loaded.
+
 ## Custom script
 
 If you want to create your own menu and your own code using the configserver module you must do the following:
