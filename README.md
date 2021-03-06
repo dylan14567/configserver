@@ -30,6 +30,8 @@ pip install configserver
 
 Once done, it begins to install.
 
+to start configserver you just have to put the ``` configserver ``` command in the terminal.
+
 Ready
 
 ## Usage:
