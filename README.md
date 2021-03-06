@@ -61,6 +61,8 @@ server.header (link) # Get information from a website
 
 * **Dylan Alexander** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
 
+You can also look at the list of all [contributors](https://github.com/dylan14567/configserver/contributors) who have participated in this project.
+
 ## License
 
 The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>
