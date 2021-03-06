@@ -69,4 +69,4 @@ You can also look at the list of all [contributors](https://github.com/dylan1456
 
 ## License
 
-The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>
+The license for this project is [MIT](https://github.com/dylan14567/configserver/blob/main/LICENSE)
