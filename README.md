@@ -8,6 +8,17 @@
 
 Configserver is a system created by dylan14567, and this system helps you manage your ubuntu server.
 
+## Pre-requirements
+
+The requirements to use the system is to have the following python modules installed:
+
+```
+colorama
+requests
+wheel
+
+```
+
 ## Installation
 
 To install configserver on linux run these commands on your Linux Terminal.
