@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.11",
     author="dylan14567",
     author_email="dylanmeca70@yahoo.com",
-    description="Configure your linux server and check for vulnerabilities with configserver.",
+    description="Configure your linux server and check for vulnerabilities with configserver",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dylan14567/configserver",
