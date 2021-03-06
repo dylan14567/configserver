@@ -1,15 +1,15 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+with open("README.md", "r", encoding="utf-8") as f:
+    README = f.read()
 
 setuptools.setup(
     name="configserver", 
-    version="1.11",
+    version="1.12",
     author="dylan14567",
     author_email="dylanmeca70@yahoo.com",
     description="Configure your linux server and check for vulnerabilities with configserver",
-    long_description=long_description,
+    long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/dylan14567/configserver",
     scripts = ['configserver'],
