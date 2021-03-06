@@ -9,7 +9,7 @@
 
 Configserver is a system created by dylan14567, and this system helps you manage your ubuntu server.
 
-# Installation
+## Installation
 
 To install configserver on linux run these commands on your Linux Terminal.
 
@@ -23,8 +23,26 @@ Once done, it begins to install.
 
 Ready
 
-/END/
+## Custom script
 
-# License
+If you want to create your own menu and your own code using the configserver module you must do the following:
+
+```python 
+
+from adminserver.main import *
+
+server = server ()
+
+server.systeminfo () # Shows you system information
+server.listusers () # List system users
+server.installpackages () # install the apt packages necessary for the code to work
+server.addnewuser () # Add new users
+
+# Removing information from my website
+link = "127.0.0.1"
+server.header (link) # Get information from a website
+
+```
+## License
 
 The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>
