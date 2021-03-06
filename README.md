@@ -59,7 +59,7 @@ server.header (link) # Get information from a website
 
 ## Authors
 
-**Dylan Alexander** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
+* **Dylan Alexander** - *Initial Work* - [dylan14567](https://github.com/dylan14567)
 
 ## License
 
