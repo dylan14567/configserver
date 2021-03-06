@@ -25,10 +25,6 @@ Ready
 
 /END/
 
-# Contributing
-
-Interested in contributing to the project? We would love your help. Configserver is an open source project, built one contribution at a time by users like you. <a href="https://github.com/dylan14567/configserver/blob/main/CONTRIBUTING.md">See the CONTRIBUTING file </a> for instructions on how to contribute.
-
 # License
 
 The license for this project is <a href="https://github.com/dylan14567/configserver/blob/main/LICENSE">MIT </a>
