@@ -6,7 +6,9 @@
 [![security_policy](https://img.shields.io/badge/security-policy-cyan.svg)](https://github.com/dylan14567/configserver/blob/main/SECURITY.md)
 [![Python](https://img.shields.io/badge/language-Python%20-yellow.svg)](https://www.python.org)
 
-Configserver is a system created by dylan14567, and this system helps you manage your ubuntu server.
+Configure your linux server and check for vulnerabilities with configserver.
+
+Configserver has a menu with options and allows you to configure your server through that menu but you can also import the configserver module in another file.
 
 ## Pre-requirements
 
